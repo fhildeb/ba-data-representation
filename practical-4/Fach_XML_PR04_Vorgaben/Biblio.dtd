@@ -1,0 +1,8 @@
+<!ELEMENT biblio (buch+)>
+<!ELEMENT buch (kuerzel, titel, autoren, verlag)>
+<!ELEMENT kuerzel (#PCDATA)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT autoren (#PCDATA)>
+<!ELEMENT verlag (#PCDATA)>
+<!ATTLIST buch buch_id ID #REQUIRED>
+
