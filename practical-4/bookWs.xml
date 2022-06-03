@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buecher SYSTEM "booksWs.dtd">
+<buecher>
+    <buch buch_id="_0001" isbn_nr="1234-1234-1234">
+        <!--Notiz-->
+        <verlag>Springer</verlag>
+        <autor>Mustermann, Max</autor>
+        <titel>XML in a Nutshell</titel>
+    </buch>
+</buecher>
