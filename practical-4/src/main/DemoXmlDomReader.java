@@ -11,7 +11,7 @@ public class DemoXmlDomReader {
 		
 		DemoXmlDomReader dom = new DemoXmlDomReader();
 		
-		String path = "./Fach_XML_PR04_Vorgaben/";
+		String path = "./templates/";
 		String xmlFile = "Biblio_mit_XSD.xml";
 		
 		Document doc = dom.domRead(path + xmlFile, false);
