@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding = "ISO-8859-1" standalone="no" ?>
+<!-- Das ist Praktikum 1 -->
+
+<!DOCTYPE biblio [
+
+		<!ELEMENT biblio (buch+)>
+		<!ELEMENT buch (kuerzel, titel, autoren, verlag)>
+		<!ELEMENT kuerzel (#PCDATA)>
+		<!ELEMENT titel (#PCDATA)>
+		<!ELEMENT autoren ANY>
+		<!ELEMENT verlag (#PCDATA)>
+		<!ELEMENT kurzinfo (#PCDATA)>
+		<!ATTLIST buch buch_id ID #REQUIRED>
+		<!ATTLIST verlag link CDATA #IMPLIED>
+		<!ENTITY extBuchListe SYSTEM "ExterneBuchListe.xml">
+]>
+		
+<biblio>
+	<buch buch_id = "_00001">
+			<kuerzel>[Vonhoegen 05]</kuerzel>
+			<titel>Einstieg in XML</titel>
+			<autoren>Vonhoegen, Helmut
+				<kurzinfo>
+					<![CDATA[ 
+						Text eines wahren Kuenstlers 
+					]]>
+				</kurzinfo>
+			</autoren>
+			<verlag link = "www.galileocomputing.de">Galileo Press Bonn</verlag>
+	</buch>
+
+	<buch buch_id = "_00002">
+			<kuerzel>[Stark 05]</kuerzel>
+			<titel>J2EE - Einstieg fuer Anspruchsvolle</titel>
+			<autoren>Stark, Thomas</autoren>
+			<verlag link = "www.galileocomputing.de">Addison-Wesley Person Studium</verlag>
+	</buch>
+	&extBuchListe;
+</biblio>
