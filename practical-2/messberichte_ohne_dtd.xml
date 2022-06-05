@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding = "ISO-8859-1" standalone="no" ?>
+<!-- Praktikum 2 -->
+
+<!DOCTYPE biblio [
+
+		<!ELEMENT messberichte (messbericht+)>
+			<!ELEMENT messbericht (kopfdaten, messwertdaten, pruefergebnis)>
+			<!-- Kopfdaten -->
+				<!ELEMENT kopfdaten (artikeldaten, leiferantendaten, prueferdaten)>
+					<!ELEMENT artikeldaten (zeichnungsnummer, bezeichnung)>
+						<!ELEMENT zeichnungsnummer (#PCDATA)>
+						<!ELEMENT bezeichnung (#PCDATA)>
+						
+					<!ELEMENT lieferantendaten (lieferant)>
+						<!ELEMENT lieferant (#PCDATA)>
+
+						<!ELEMENT prueferdaten (pruefer)>
+							<!ELEMENT pruefer (arbeitszeitverbrauch)>
+								<!ELEMENT arbeitszeitverbrauch (#PCDATA)>
+							
+				<!ELEMENT messwertdaten (pruefmerkmal+)>
+					<!ELEMENT pruefmerkmal (messwert+, mittelwert)>
+						<!ELEMENT messwert (#PCDATA)>
+						<!ELEMENT mittelwert (#PCDATA)>
+				<!ELEMENT pruefergebnis (bemerkung, nachbearbeitungstermin?)>
+					<!ELEMENT bemerkung (#PCDATA)>
+					<!ELEMENT nachbearbeitungstermin (#PCDATA)>
+]>
+		
+<messberichte>
+	<messbericht messbericht_id = "_00001">
+	
+		<!-- Kopfdaten -->
+		<kopfdaten>
+			<artikeldaten>
+				<zeichnungsnummer>
+				//
+				</zeichnungsnummer>
+				<bezeichnung>
+				//
+				</bezeichnung>
+			</artikeldaten>
+			<lieferantendaten>
+				<lieferant>
+				//
+				</lieferant>
+			</lieferantendaten>
+			<prueferdaten>
+				<pruefer>
+					<arbeitszeitenverbrauch>
+					//
+					</arbeitszeitenverbrauch>
+				</pruefer>
+			</prueferdaten>
+		</kopfdaten>
+		
+		<!-- Messwertdaten -->
+		<messwertdaten>
+			<pruefmerkmal>
+				<messwert>
+				//
+				</messwert>
+				<mittelwert>
+				//
+				</mittelwert>
+			</pruefmerkmal>
+		</messwertdaten>
+		
+		<!-- Pruefergebnis -->
+		<pruefergebnis>
+			<bemerkung>
+			//
+			</bemerkung>
+			<nachbearbeitungstermin>
+			//
+			</nachbearbeitungstermin>
+		</pruefergebnis>
+	</messbericht>
+
+</messberichte>

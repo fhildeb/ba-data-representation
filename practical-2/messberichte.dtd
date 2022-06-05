@@ -1,0 +1,41 @@
+		<!ELEMENT messberichte (messbericht+)>
+			<!ELEMENT messbericht (kopfdaten, messwertdaten, pruefergebnis)>
+			<!-- Kopfdaten DATA-->
+				<!ELEMENT kopfdaten (artikeldaten, lieferantendaten, prueferdaten)>
+					<!ELEMENT artikeldaten (zeichnungsnummer, bezeichnung)>
+						<!ELEMENT zeichnungsnummer (#PCDATA)>
+						<!ELEMENT bezeichnung (#PCDATA)>
+						
+					<!ELEMENT lieferantendaten (lieferant)>
+						<!ELEMENT lieferant (#PCDATA)>
+
+						<!ELEMENT prueferdaten (pruefer)>
+							<!ELEMENT pruefer (arbeitszeitverbrauch)>
+								<!ELEMENT arbeitszeitverbrauch (#PCDATA)>
+			<!-- Messwertdaten DATA-->		
+				<!ELEMENT messwertdaten (pruefmerkmal+)>
+					<!ELEMENT pruefmerkmal (messwert+, mittelwert)>
+						<!ELEMENT messwert (#PCDATA)>
+						<!ELEMENT mittelwert (#PCDATA)>
+						
+			<!-- Pruefergebnis DATA-->		
+				<!ELEMENT pruefergebnis (bemerkung, nachbearbeitungstermin?)>
+					<!ELEMENT bemerkung (#PCDATA)>
+					<!ELEMENT nachbearbeitungstermin (#PCDATA)>
+			
+			<!-- Kopfdaten ATTRIBUTES-->
+				<!ENTITY % id_short "ID #REQUIRED" >
+				<!ATTLIST messbericht messbericht_id %id_short;>
+				<!ATTLIST messbericht datum CDATA #REQUIRED>
+					<!ATTLIST artikeldaten artikel_id CDATA #REQUIRED>
+					<!ATTLIST lieferantendaten lieferanten_id CDATA #REQUIRED>
+					<!ATTLIST prueferdaten pruefplan_id CDATA #REQUIRED>
+						<!ATTLIST pruefer link CDATA #REQUIRED>
+				
+			<!-- Messwertdaten ATTRIBUTES-->
+				<!ATTLIST pruefmerkmal name CDATA #REQUIRED>
+				<!ATTLIST pruefmerkmal dimension CDATA #REQUIRED>
+					<!ATTLIST messwert lfd_nr CDATA #REQUIRED>
+					
+			<!-- Pruefergebnis ATTRIBUTES-->
+			<!ATTLIST pruefergebnis einstufung CDATA #REQUIRED>
