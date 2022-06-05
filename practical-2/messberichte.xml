@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding = "ISO-8859-1" standalone="no" ?>
+<!-- Praktikum 2 -->
+<!DOCTYPE messberichte SYSTEM "./messberichte.dtd" >
+		
+<messberichte>
+	<messbericht messbericht_id = "YXZ-0815" datum="27.09.2018">
+	
+		<!-- Kopfdaten -->
+		<kopfdaten>
+			<artikeldaten artikel_id="wz-123-876">
+				<zeichnungsnummer>tpb7012578-v01</zeichnungsnummer>
+				<bezeichnung>CPU-Kuehlkoerper A1</bezeichnung>
+			</artikeldaten>
+			<lieferantendaten lieferanten_id="L00304">
+				<lieferant>Fischer AG, Ulm</lieferant>
+			</lieferantendaten>
+			<prueferdaten pruefplan_id="wz-213-876-ppll">
+				<pruefer link="stefan@abcd.com">
+					<arbeitszeitverbrauch>4.5 Stunden</arbeitszeitverbrauch>
+				</pruefer>
+			</prueferdaten>
+		</kopfdaten>
+		
+		<!-- Messwertdaten -->
+		<messwertdaten>
+			<pruefmerkmal name="laenge-a" dimension="mm">
+				<messwert lfd_nr="1" >50,12</messwert>
+				<messwert lfd_nr="2" >50,01</messwert>
+				<messwert lfd_nr="3" >49,98</messwert>
+				<mittelwert>50,04</mittelwert>
+			</pruefmerkmal>
+			
+			<pruefmerkmal name="gesamtmasse" dimension="g">
+				<messwert lfd_nr="1" >210,3</messwert>
+				<messwert lfd_nr="2" >209,8</messwert>
+				<messwert lfd_nr="3" >208,9</messwert>
+				<mittelwert>209,7</mittelwert>
+			</pruefmerkmal>
+		</messwertdaten>
+		
+		<!-- Pruefergebnis -->
+		<pruefergebnis einstufung="Nacharbeit">
+			<bemerkung>
+			Die Pruef-Ergebnisse liegen in einem Grenzbereich, dass der
+			o.g. Artikel mit einer speziellen Nacharbeit XYZ einer erneuten Pruefung
+			unterzogen werden kann.
+			</bemerkung>
+			<nachbearbeitungstermin>25.10.2018</nachbearbeitungstermin>
+		</pruefergebnis>
+	</messbericht>
+</messberichte>
