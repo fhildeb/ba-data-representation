@@ -1,0 +1,108 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Elektronikrechnungen",
+  "description": "Eine Liste von Elektronikrechnungen",
+  "properties": {
+    "rechnungen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "[0-9]{3}"
+          },
+          "datum": {
+            "type": "string",
+            "pattern": "[12][0-9]{3}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])"
+          },
+          "kaufliste": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "bezeichnung": {
+                  "type": "string"
+                },
+                "menge": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "einzelpreis": {
+                  "type": "object",
+                  "properties": {
+                    "betrag": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "waehrung": {
+                      "type": "string",
+                      "enum": [
+                        "euro",
+                        "usd",
+                        "gpb"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "betrag",
+                    "waehrung"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "bezeichnung",
+                "menge",
+                "einzelpreis"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "haendler": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "ort": {
+                "type": "string"
+              },
+              "plz": {
+                "type": "string"
+              },
+              "strasse": {
+                "type": "string"
+              },
+              "hausnummer": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "ort",
+              "plz",
+              "strasse",
+              "hausnummer"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "datum",
+          "kaufliste",
+          "haendler"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "rechnungen"
+  ],
+  "additionalProperties": false
+}
