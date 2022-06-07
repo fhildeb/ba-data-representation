@@ -1,0 +1,160 @@
+{
+  "rechnungen": [
+    {
+      "id": "001",
+      "datum": "2018-04-28",
+      "kaufliste": [
+        {
+          "bezeichnung": "LOGOTECH T335 Headset Schwarz",
+          "Menge": 1,
+          "Einzelpreis": {
+            "betrag": 39.99,
+            "waehrung": "euro"
+          },
+          "einzelpreis": {
+            "betrag": 39.99,
+            "waehrung": "euro"
+          },
+          "menge": 1
+        }
+      ],
+      "haendler": {
+        "name": "Jupiter Elektrohandel",
+        "ort": "Chemnitz",
+        "plz": "09111",
+        "strasse": "Bahnhofstrasse",
+        "hausnummer": "11"
+      }
+    },
+    {
+      "id": "002",
+      "datum": "2018-05-12",
+      "kaufliste": [
+        {
+          "bezeichnung": "Fastlink Maus M290 Anthrazit",
+          "Menge": 1,
+          "Einzelpreis": {
+            "betrag": 11.5,
+            "waehrung": "euro"
+          },
+          "einzelpreis": {
+            "betrag": 11.5,
+            "waehrung": "euro"
+          },
+          "menge": 1
+        },
+        {
+          "bezeichnung": "Fastlink Tastatur T290 Grau",
+          "Menge": 1,
+          "Einzelpreis": {
+            "betrag": 19.99,
+            "waehrung": "euro"
+          },
+          "einzelpreis": {
+            "betrag": 19.99,
+            "waehrung": "euro"
+          },
+          "menge": 1
+        }
+      ],
+      "haendler": {
+        "name": "MegaMarkt",
+        "ort": "Leipzig",
+        "plz": "04103",
+        "strasse": "Marktplatz",
+        "hausnummer": "60"
+      }
+    },
+    {
+      "id": "003",
+      "datum": "2018-03-25",
+      "kaufliste": [
+        {
+          "bezeichnung": "GL F2323 24'' LED Monitor",
+          "Menge": 1,
+          "Einzelpreis": {
+            "betrag": 105.5,
+            "waehrung": "euro"
+          },
+          "einzelpreis": {
+            "betrag": 105.5,
+            "waehrung": "euro"
+          },
+          "menge": 1
+        },
+        {
+          "bezeichnung": "HDMI Kabel 2 Meter",
+          "Menge": 3,
+          "Einzelpreis": {
+            "betrag": 2.99,
+            "waehrung": "euro"
+          },
+          "einzelpreis": {
+            "betrag": 2.99,
+            "waehrung": "euro"
+          },
+          "menge": 3
+        }
+      ],
+      "haendler": {
+        "name": "MegaMarkt",
+        "ort": "Leipzig",
+        "plz": "04103",
+        "strasse": "Marktplatz",
+        "hausnummer": "60"
+      }
+    },
+    {
+      "id": "004",
+      "datum": "2018-08-31",
+      "kaufliste": [
+        {
+          "bezeichnung": "SUSA Mainboard M121",
+          "Menge": 1,
+          "Einzelpreis": {
+            "betrag": 0.0,
+            "waehrung": null
+          },
+          "einzelpreis": {
+            "betrag": 0.0,
+            "waehrung": null
+          },
+          "menge": 1
+        },
+        {
+          "bezeichnung": "MDA Prozessor K7 3,0 Ghz",
+          "Menge": 1,
+          "Einzelpreis": {
+            "betrag": 0.0,
+            "waehrung": null
+          },
+          "einzelpreis": {
+            "betrag": 0.0,
+            "waehrung": null
+          },
+          "menge": 1
+        },
+        {
+          "bezeichnung": "CoolAir Gehäuselüfter AZ001",
+          "Menge": 4,
+          "Einzelpreis": {
+            "betrag": 0.0,
+            "waehrung": null
+          },
+          "einzelpreis": {
+            "betrag": 0.0,
+            "waehrung": null
+          },
+          "menge": 4
+        }
+      ],
+      "haendler": {
+        "name": null,
+        "ort": null,
+        "plz": null,
+        "strasse": null,
+        "hausnummer": null
+      }
+    }
+  ]
+}
