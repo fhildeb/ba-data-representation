@@ -1,0 +1,83 @@
+{
+    "rechnungen": [
+        {
+            "id": "001",
+            "datum": "2018-04-28",
+            "kaufliste": [
+                {
+                    "bezeichnung": "LOGOTECHT335HeadsetSchwarz",
+                    "menge": 1,
+                    "einzelpreis": {
+                        "betrag": 39.99,
+                        "waehrung": "euro"
+                    }
+                }
+            ],
+            "haendler": {
+                "name": "JupiterElektrohandel",
+                "ort": "Chemnitz",
+                "plz": "09111",
+                "strasse": "Bahnhofstrasse",
+                "hausnummer": "11"
+            }
+        },
+        {
+            "id": "002",
+            "datum": "2018-05--12",
+            "kaufliste": [
+                {
+                    "bezeichnung": "FastlinkMausM290Anthrazit",
+                    "menge": 1,
+                    "einzelpreis": {
+                        "betrag": 11.5,
+                        "waehrung": "euro"
+                    }
+                },
+                {
+                    "bezeichnung": "FastlinkTastaturT290Grau",
+                    "menge": 1,
+                    "einzelpreis": {
+                        "betrag": 19.99,
+                        "waehrung": "euro"
+                    }
+                }
+            ],
+            "haendler": {
+                "name": "MegaMarkt",
+                "ort": "Leipzig",
+                "plz": "04103",
+                "strasse": "Marktplatz",
+                "hausnummer": "60"
+            }
+        },
+        {
+            "id": "003",
+            "datum": "2018-03-25",
+            "kaufliste": [
+                {
+                    "bezeichnung": "GLF232324''LEDMonitor",
+                    "menge": 1,
+                    "einzelpreis": {
+                        "betrag": 105.5,
+                        "waehrung": "euro"
+                    }
+                },
+                {
+                    "bezeichnung": "HDMIKabel2Meter",
+                    "menge": 3,
+                    "einzelpreis": {
+                        "betrag": 2.99,
+                        "waehrung": "euro"
+                    }
+                }
+            ],
+            "haendler": {
+                "name": "MegaMarkt",
+                "ort": "Leipzig",
+                "plz": "04103",
+                "strasse": "Marktplatz",
+                "hausnummer": "60"
+            }
+        }
+    ]
+}
