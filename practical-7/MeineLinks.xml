@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="ws_links.xslt"?>
+
+<links>
+	<link>
+		<titel>
+			XSL Transformations (XSLT) Version 1.0
+			Deutsche Uebersetzung
+		</titel>
+
+		<ref>http://xml.klute-thiemann.de/index.html</ref>
+
+		<description>
+			Deutsche Uebersetzung
+		</description>
+		<fach>Fach_XML</fach>
+	</link>
+
+	<link>
+		<titel>
+			XSL Transformations (XSLT) Version 1.0
+			Offizielle W3C-Seite in englisch
+		</titel>
+
+		<ref>http://www.w3.org/TR/xslt</ref>
+
+		<description>
+			Englisches Original
+		</description>
+		<fach>Fach_XML</fach>
+		<fach>Fach_SWT</fach>
+	</link>
+
+
+</links>
