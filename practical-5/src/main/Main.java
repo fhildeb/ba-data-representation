@@ -6,14 +6,14 @@ public class Main {
 
 	public static void main(String[] ars)
 	{
-		String pfad = "./Elektronikrechnungen_Daten_falsch.json";
+		String pfad = "./Elektronikrechnungen_Daten.json";
 		
 		JsonTester test = new JsonTester(pfad);
 		
 		Rechnungsliste liste = test.leseJSONinRechnungsliste();
 		test.zeigeRechnungslisteAn(liste);
 		
-		String datenPfad = "./Elektronikrechnungen_Daten.json";
+		String datenPfad = "./Elektronikrechnungen_Daten_Struktur.json";
 		String schemaPfad = "./Elektronikrechnungen_Schema.json";
 	
 		SchemaValidierer validierer = new SchemaValidierer();
