@@ -29,7 +29,7 @@ public class DemoXmlDomWriter {
 		serializer.setNewLine("\r\n");
 		
 		serializer.writeToURI(doc, XmlFile);
-		System.out.println("x");
+		System.out.println("fertig");
 	}
 	
 	public static Document createDom()
