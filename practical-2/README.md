@@ -1,1 +1,0 @@
-# practical-2

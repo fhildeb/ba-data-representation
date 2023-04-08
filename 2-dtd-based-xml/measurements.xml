@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding = "ISO-8859-1" standalone="no" ?>
-<!-- Praktikum 2 -->
-<!DOCTYPE messberichte SYSTEM "./messberichte.dtd" >
+<!DOCTYPE messberichte SYSTEM "./measurements.dtd" >
 		
 <messberichte>
 	<messbericht messbericht_id = "YXZ-0815" datum="27.09.2018">

@@ -13,7 +13,8 @@ Regarding the more practical part, the course provided insights into programming
 ### Features
 
 - Data Apects: Semantics, Content, Syntax, Structure, Presentation, Metadata
-- XML: Specifications, Elements, Processing Instructions, DTD, Namespaces, Schemas
+- XML: Specifications, Elements, Processing Instructions, Document Type Definition
+- Data Namespaces and Schemas
 - Programming Interfaces: DOM and SAX
 - JSON and RESTful Web Services: Structure, Concepts, and Implementation
 - Version Management and XML Technologies: Git, XPath, and XSLT
@@ -21,7 +22,7 @@ Regarding the more practical part, the course provided insights into programming
 ## Repository Contents
 
 1. XML Document Creation and Integration
-2.
+2. DTD-Based XML Validation
 3.
 4.
 5.
