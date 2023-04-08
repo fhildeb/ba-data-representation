@@ -7,10 +7,9 @@
 		<verlag link = "www.galileocomputing.de">Galileo Press Bonn</verlag>
 </buch>
 
-<buch buch_id = "_90002" >
+<buch buch_id = "_90002">
 		<kuerzel>[Stark 05]</kuerzel>
 		<titel>J2EE - Einstieg fuer Anspruchsvolle</titel>
 		<autoren>Stark, Thomas</autoren>
 		<verlag link = "www.galileocomputing.de">Addison-Wesley Person Studium</verlag>
 </buch>
- 

@@ -20,7 +20,7 @@ Regarding the more practical part, the course provided insights into programming
 
 ## Repository Contents
 
-1.
+1. XML Document Creation and Integration
 2.
 3.
 4.
@@ -31,4 +31,5 @@ Regarding the more practical part, the course provided insights into programming
 
 ## Tools
 
-[Eclipse](https://www.eclipse.org)
+- [XML Lint from Starlet](https://formulae.brew.sh/formula/xmlstarlet)
+- [Eclipse IDE](https://www.eclipse.org)

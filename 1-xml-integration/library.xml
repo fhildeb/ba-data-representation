@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding = "ISO-8859-1" standalone="no" ?>
-<!-- Das ist Praktikum 1 -->
 
 <!DOCTYPE biblio [
 
@@ -12,7 +11,7 @@
 		<!ELEMENT kurzinfo (#PCDATA)>
 		<!ATTLIST buch buch_id ID #REQUIRED>
 		<!ATTLIST verlag link CDATA #IMPLIED>
-		<!ENTITY extBuchListe SYSTEM "ExterneBuchListe.xml">
+		<!ENTITY extBuchListe SYSTEM "external-book-list.xml">
 ]>
 		
 <biblio>
