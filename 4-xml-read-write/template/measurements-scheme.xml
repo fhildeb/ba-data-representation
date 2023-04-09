@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 
-<messberichte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 		xsi:noNamespaceSchemaLocation="mberichte_stufenmodell.xsd">
-  <messbericht mb_id="YXZ-0815" pruefdatum="27.09.2014">
+<messberichte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 		xsi:noNamespaceSchemaLocation="measurements-model.xsd">
+  <messbericht mb_id="YXZ-0815" pruefdatum="27.09.2013">
     <kopfdaten>
       <prueferdaten pers_id="HM0102" email="stefan@abcd.com" pr_name="Stefan Muster" />
       <arbeitszeit dimension="Min">4.5</arbeitszeit>
@@ -33,10 +33,10 @@
       <bemerkungen><![CDATA[
 Die Pruef-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der speziellen Nacharbeit XYZ einer erneuten Pruefung unterzogen werden kann.
 			]]></bemerkungen>
-      <nacharbeitsdatum format="dd.mm.yyyy">31.10.2014</nacharbeitsdatum>
+      <nacharbeitsdatum format="dd.mm.yyyy">25.10.2013</nacharbeitsdatum>
     </pruefergebnis>
   </messbericht>
-  <messbericht mb_id="YXZ-0816" pruefdatum="27.09.2014">
+  <messbericht mb_id="YXZ-0816" pruefdatum="27.09.2013">
     <kopfdaten>
       <prueferdaten pers_id="HM0102a" email="rolf@abcd.com" pr_name="Rolf Beispiel" />
       <arbeitszeit dimension="Min">3.7</arbeitszeit>
@@ -68,10 +68,10 @@ Die Pruef-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der spe
       <bemerkungen><![CDATA[
 Die Pruef-Ergebnisse lagen alle im i.O.Bereich.
 			]]></bemerkungen>
-      <nacharbeitsdatum format="dd.mm.yyyy">31.10.2014</nacharbeitsdatum>
+      <nacharbeitsdatum format="dd.mm.yyyy">01.11.2013</nacharbeitsdatum>
     </pruefergebnis>
   </messbericht>
-  <messbericht mb_id="YXZ-0817" pruefdatum="27.09.2014">
+  <messbericht mb_id="YXZ-0817" pruefdatum="27.09.2013">
     <kopfdaten>
       <prueferdaten pers_id="HM0102b" email="anja@abcd.com" pr_name="Anja Sample" />
       <arbeitszeit dimension="Min">2.3</arbeitszeit>
@@ -103,7 +103,7 @@ Die Pruef-Ergebnisse lagen alle im i.O.Bereich.
       <bemerkungen><![CDATA[
 Einige Pruef-Ergebnisse liegen ausserhalb der gueltigen Toleranz.
 			]]></bemerkungen>
-      <nacharbeitsdatum format="dd.mm.yyyy">07.11.2014</nacharbeitsdatum>
+      <nacharbeitsdatum format="dd.mm.yyyy">08.11.2013</nacharbeitsdatum>
     </pruefergebnis>
   </messbericht>
 </messberichte>

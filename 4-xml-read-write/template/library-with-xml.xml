@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding = "ISO-8859-1" standalone = "no" ?>
-<!-- Das ist unsere erste XML-Uebung -->
+<?xml version="1.0" encoding = "ISO-8859-1"?>
 
-<!DOCTYPE biblio SYSTEM "Biblio.dtd">
-
-<biblio>
+<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
 	<buch buch_id = "_00001" >
 		<kuerzel>[Harold 05]</kuerzel>
 		<titel>XML in an Nutshell</titel>

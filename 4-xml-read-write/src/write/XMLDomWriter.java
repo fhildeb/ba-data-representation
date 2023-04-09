@@ -10,12 +10,12 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Text;
 import org.w3c.dom.ls.LSSerializer;
 
-public class DemoXmlDomWriter {
+public class XMLDomWriter {
 
 	public static void main(String[] args)
 	{
 		System.out.println("Demo DOM erzeugen und in eine XML-Datei schreiben");
-		domWrite("file:./bookWs.xml");
+		domWrite("file:./books.xml");
 	}
 	
 	public static void writeXml(String XmlFile,Document doc)
@@ -40,7 +40,7 @@ public class DemoXmlDomWriter {
 		
 		doc = domImpl.createDocument(null, "buecher", null);
 		
-		DocumentType docType= domImpl.createDocumentType("buecher", null, "booksWs.dtd");
+		DocumentType docType= domImpl.createDocumentType("buecher", null, "books.dtd");
 		doc.appendChild(docType);
 		
 		Element elBuch = doc.createElement("buch");

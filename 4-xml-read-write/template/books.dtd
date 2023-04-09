@@ -5,4 +5,3 @@
 <!ELEMENT verlag (#PCDATA)>
 <!ATTLIST buch isbn_nr ID #REQUIRED>
 <!ATTLIST buch buch_id ID #REQUIRED>
-

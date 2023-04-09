@@ -3,7 +3,7 @@ package main;
 import org.w3c.dom.*;
 import org.apache.xerces.parsers.DOMParser;
 
-public class DemoXmlDomReader {
+public class XMLDomReader {
 	
 	public static void main(String[] args)
 	{
@@ -12,7 +12,7 @@ public class DemoXmlDomReader {
 		DemoXmlDomReader dom = new DemoXmlDomReader();
 		
 		String path = "./templates/";
-		String xmlFile = "Biblio_mit_XSD.xml";
+		String xmlFile = "library-with-xml.xml";
 		
 		Document doc = dom.domRead(path + xmlFile, false);
 		

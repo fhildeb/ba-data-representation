@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding = "ISO-8859-1" standalone = "no" ?>
 
-<biblio xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "Biblio.xsd">
+<biblio xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "library-scheme.xsd">
 	<buch buch_id = "_00001" >
 		<kuerzel>[Harold 05]</kuerzel>
 		<titel>XML in an Nutshell</titel>

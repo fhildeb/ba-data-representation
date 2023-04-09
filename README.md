@@ -34,3 +34,4 @@ Regarding the more practical part, the course provided insights into programming
 
 - [XML Lint from Starlet](https://formulae.brew.sh/formula/xmlstarlet)
 - [Eclipse IDE](https://www.eclipse.org)
+- [Xerces2 Parser](https://xerces.apache.org/xerces2-j/)
