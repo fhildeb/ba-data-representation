@@ -13,13 +13,13 @@ import javax.xml.transform.stream.StreamSource;
 
 import org.apache.xalan.processor.TransformerFactoryImpl;
 
-public class SimpleTransformer {
+public class XSLTTransformer {
 
 	public void transform() 
 	{
-		String inputFile = "./FirmenAdressen.xsl";
-		String outputFile = "/Users/fhildebrandt/Documents/Eclipse/CreatedFiles/FirmenAdressen.html";
-		String styleSheetFile = "./FirmenAdressen.xsl";
+		String inputFile = "./addresses.xml";
+		String outputFile = "./addresses.html";
+		String styleSheetFile = "./addresses.xsl";
 	
 		try {
 			TransformerFactory tFactory = new TransformerFactoryImpl();
@@ -48,7 +48,7 @@ public class SimpleTransformer {
 	
 	public static void main(String[] args)
 	{
-		XSimpleTransformer xform = new XSimpleTransformer();
+		XSLTTransformer xform = new XSLTTransformer();
 		xform.transform();
 	}
 }

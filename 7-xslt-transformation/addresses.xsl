@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="FirmenAdressen.xml" ?>
+<?xml-stylesheet type="text/xsl" href="addresses.xml" ?>
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="dataroot/tcaq_Adressen">
