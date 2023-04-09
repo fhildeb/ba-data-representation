@@ -1,17 +1,17 @@
 package model;
 
-public class Gegenstand {
+public class Item {
 
 	public String bezeichnung;
 	public int Menge;
-	public Einzelpreis Einzelpreis;
+	public SinglePrice Einzelpreis;
 	public String getBezeichnung() {
 		return bezeichnung;
 	}
 	public int getMenge() {
 		return Menge;
 	}
-	public Einzelpreis getEinzelpreis() {
+	public SinglePrice getEinzelpreis() {
 		return Einzelpreis;
 	}
 	public void setBezeichnung(String bezeichnung) {
@@ -20,7 +20,7 @@ public class Gegenstand {
 	public void setMenge(int menge) {
 		Menge = menge;
 	}
-	public void setEinzelpreis(Einzelpreis einzelpreis) {
+	public void setEinzelpreis(SinglePrice einzelpreis) {
 		Einzelpreis = einzelpreis;
 	}
 }

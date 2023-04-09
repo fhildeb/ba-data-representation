@@ -2,12 +2,12 @@ package model;
 
 import java.util.List;
 
-public class Rechnung {
+public class Invoice {
 
 	public String id;
 	public String datum;
-	public List<Gegenstand> kaufliste;
-	public Haendler haendler;
+	public List<Item> kaufliste;
+	public Dealer haendler;
 	
 	public Rechnung() {}
 	
@@ -17,10 +17,10 @@ public class Rechnung {
 	public String getDatum() {
 		return datum;
 	}
-	public List<Gegenstand> getKaufliste() {
+	public List<Item> getKaufliste() {
 		return kaufliste;
 	}
-	public Haendler getHaendler() {
+	public Dealer getHaendler() {
 		return haendler;
 	}
 	public void setId(String id) {
@@ -29,10 +29,10 @@ public class Rechnung {
 	public void setDatum(String datum) {
 		this.datum = datum;
 	}
-	public void setKaufliste(List<Gegenstand> kaufliste) {
+	public void setKaufliste(List<Item> kaufliste) {
 		this.kaufliste = kaufliste;
 	}
-	public void setHaendler(Haendler heandler) {
+	public void setHaendler(Dealer heandler) {
 		this.haendler = heandler;
 	}
 }

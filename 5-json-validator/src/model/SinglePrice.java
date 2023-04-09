@@ -1,6 +1,6 @@
 package model;
 
-public class Einzelpreis {
+public class SinglePrice {
 
 	public double betrag;
 	public String waehrung;

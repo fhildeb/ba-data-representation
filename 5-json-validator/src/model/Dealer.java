@@ -1,6 +1,6 @@
 package model;
 
-public class Haendler {
+public class Dealer {
 
 	public String name;
 	public String ort;

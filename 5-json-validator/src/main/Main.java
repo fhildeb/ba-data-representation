@@ -1,6 +1,6 @@
 package main;
 
-import model.Rechnungsliste;
+import model.InvoiceList;
 
 public class Main {
 

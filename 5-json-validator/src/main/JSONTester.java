@@ -9,11 +9,11 @@ import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-import model.Einzelpreis;
-import model.Gegenstand;
-import model.Haendler;
-import model.Rechnung;
-import model.Rechnungsliste;
+import model.SinglePrice;
+import model.Item;
+import model.Dealer;
+import model.Invoice;
+import model.InvoiceList;
 
 public class JSONTester {
 
