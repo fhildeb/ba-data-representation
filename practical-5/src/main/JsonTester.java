@@ -15,7 +15,7 @@ import model.Haendler;
 import model.Rechnung;
 import model.Rechnungsliste;
 
-public class JsonTester {
+public class JSONTester {
 
 	private String json_pfad;
 	
@@ -89,7 +89,7 @@ public class JsonTester {
 		g2.setEinzelpreis(new Einzelpreis(315.50, "euro"));
 		
 		Gegenstand g3= new Gegenstand();
-		g3.setBezeichnung("CoolAir Gehäuselüfter AZ001");
+		g3.setBezeichnung("CoolAir Gehï¿½uselï¿½fter AZ001");
 		g3.setMenge(4);
 		g3.setEinzelpreis(new Einzelpreis(15.99, "euro"));
 		

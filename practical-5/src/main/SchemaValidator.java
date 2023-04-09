@@ -9,7 +9,7 @@ import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import com.github.fge.jsonschema.core.report.ProcessingMessage;
 import com.github.fge.jsonschema.core.report.ProcessingReport;
 
-public class SchemaValidierer {
+public class SchemaValidator {
 
 	public boolean validiereJsonSchema(String datenPfad, String schemaPfad)
 	{

@@ -6,15 +6,15 @@ public class Main {
 
 	public static void main(String[] ars)
 	{
-		String pfad = "./Elektronikrechnungen_Daten.json";
+		String pfad = "./invoice-data.json";
 		
 		JsonTester test = new JsonTester(pfad);
 		
 		Rechnungsliste liste = test.leseJSONinRechnungsliste();
 		test.zeigeRechnungslisteAn(liste);
 		
-		String datenPfad = "./Elektronikrechnungen_Daten_Struktur.json";
-		String schemaPfad = "./Elektronikrechnungen_Schema.json";
+		String datenPfad = "./invoice-structure.json";
+		String schemaPfad = "./invoice-schema.json";
 	
 		SchemaValidierer validierer = new SchemaValidierer();
 		boolean istGueltig = validierer.validiereJsonSchema(datenPfad, schemaPfad);
