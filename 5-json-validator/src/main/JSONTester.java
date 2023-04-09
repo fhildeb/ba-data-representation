@@ -89,7 +89,7 @@ public class JSONTester {
 		g2.setEinzelpreis(new Einzelpreis(315.50, "euro"));
 		
 		Gegenstand g3= new Gegenstand();
-		g3.setBezeichnung("CoolAir Geh�usel�fter AZ001");
+		g3.setBezeichnung("CoolAir Gehaeuseluefter AZ001");
 		g3.setMenge(4);
 		g3.setEinzelpreis(new Einzelpreis(15.99, "euro"));
 		

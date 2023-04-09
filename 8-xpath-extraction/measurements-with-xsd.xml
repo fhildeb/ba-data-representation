@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 
-<messberichte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mberichte_stufenmodell.xsd">
+<messberichte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="measurements-model.xsd">
   <messbericht mb_id="YXZ-0815" pruefdatum="13.11.2014">
     <kopfdaten>
       <prueferdaten pers_id="HM0102" email="stefan@abcd.com" pr_name="Stefan Muster" />
       <arbeitszeit dimension="Min">4.5</arbeitszeit>
       <artikeldaten>
         <artikel artikel_id="wz-123-876" zeichnungs_nr="tpb7012578-v01">
-          <art_bezeichnung>CPU-Kühlkörper A1</art_bezeichnung>
+          <art_bezeichnung>CPU-Kuehlkoerper A1</art_bezeichnung>
         </artikel>
       </artikeldaten>
       <pruefplandaten ppl_id="wz-123-876-ppl1" />
@@ -16,7 +16,7 @@
       </lieferantendaten>
     </kopfdaten>
     <messwertdaten>
-      <pruefmerkmal pm_name="Länge-a" pm_dimension="mm">
+      <pruefmerkmal pm_name="Laenge-a" pm_dimension="mm">
         <pm_wert lfd_nr="001">50.12</pm_wert>
         <pm_wert lfd_nr="002">50.01</pm_wert>
         <pm_wert lfd_nr="003">49.98</pm_wert>
@@ -31,7 +31,7 @@
     </messwertdaten>
     <pruefergebnis einstufung="Nacharbeit">
       <bemerkungen><![CDATA[
-Die Prüf-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der speziellen Nacharbeit XYZ einer erneuten Prüfung unterzogen werden kann.
+Die Pruef-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der speziellen Nacharbeit XYZ einer erneuten Pruefung unterzogen werden kann.
 			]]></bemerkungen>
       <nacharbeitsdatum format="dd.mm.yyyy">02.12.2014</nacharbeitsdatum>
     </pruefergebnis>
@@ -42,7 +42,7 @@ Die Prüf-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der spez
       <arbeitszeit dimension="Min">3.7</arbeitszeit>
       <artikeldaten>
         <artikel artikel_id="wz-123-874" zeichnungs_nr="tpb7012578-v05">
-          <art_bezeichnung>CPU-Kühlkörper A2</art_bezeichnung>
+          <art_bezeichnung>CPU-Kuehlkoerper A2</art_bezeichnung>
         </artikel>
       </artikeldaten>
       <pruefplandaten ppl_id="wz-123-876-pp2" />
@@ -51,7 +51,7 @@ Die Prüf-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der spez
       </lieferantendaten>
     </kopfdaten>
     <messwertdaten>
-      <pruefmerkmal pm_name="Länge-a" pm_dimension="mm">
+      <pruefmerkmal pm_name="Laenge-a" pm_dimension="mm">
         <pm_wert lfd_nr="001">50.12</pm_wert>
         <pm_wert lfd_nr="002">50.01</pm_wert>
         <pm_wert lfd_nr="003">49.98</pm_wert>
@@ -66,7 +66,7 @@ Die Prüf-Ergebnisse liegen in einem Bereich, dass der o. g. Artikel mit der spez
     </messwertdaten>
     <pruefergebnis einstufung="Gut">
       <bemerkungen><![CDATA[
-Die Prüf-Ergebnisse lagen alle im i.O.Bereich.
+Die Pruef-Ergebnisse lagen alle im i.O.Bereich.
 			]]></bemerkungen>
       <nacharbeitsdatum format="dd.mm.yyyy">09.12.2014</nacharbeitsdatum>
     </pruefergebnis>
@@ -77,7 +77,7 @@ Die Prüf-Ergebnisse lagen alle im i.O.Bereich.
       <arbeitszeit dimension="Min">2.3</arbeitszeit>
       <artikeldaten>
         <artikel artikel_id="wz-123-875" zeichnungs_nr="tpb7012578-v05a">
-          <art_bezeichnung>CPU-Kühlkörper B3</art_bezeichnung>
+          <art_bezeichnung>CPU-Kuehlkoerper B3</art_bezeichnung>
         </artikel>
       </artikeldaten>
       <pruefplandaten ppl_id="wz-123-876-pp3" />
@@ -86,7 +86,7 @@ Die Prüf-Ergebnisse lagen alle im i.O.Bereich.
       </lieferantendaten>
     </kopfdaten>
     <messwertdaten>
-      <pruefmerkmal pm_name="Länge-a" pm_dimension="mm">
+      <pruefmerkmal pm_name="Laenge-a" pm_dimension="mm">
         <pm_wert lfd_nr="001">50.12</pm_wert>
         <pm_wert lfd_nr="002">50.01</pm_wert>
         <pm_wert lfd_nr="003">49.98</pm_wert>
@@ -101,7 +101,7 @@ Die Prüf-Ergebnisse lagen alle im i.O.Bereich.
     </messwertdaten>
     <pruefergebnis einstufung="Schlecht">
       <bemerkungen><![CDATA[
-Einige Prüf-Ergebnisse liegen außerhalb der gültigen Toleranz.
+Einige Pruef-Ergebnisse liegen ausserhalb der gueltigen Toleranz.
 			]]></bemerkungen>
       <nacharbeitsdatum format="dd.mm.yyyy">16.12.2014</nacharbeitsdatum>
     </pruefergebnis>

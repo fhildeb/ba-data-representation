@@ -28,7 +28,7 @@ Regarding the more practical part, the course provided insights into programming
 5. JSON Management and Validation
 6. Custom SAX XML Parsing
 7. XSLT XML-to-HTML Transformation
-8.
+8. XPath XML Data Extraction
 
 ## Tools
 
@@ -36,3 +36,4 @@ Regarding the more practical part, the course provided insights into programming
 - [Eclipse IDE](https://www.eclipse.org)
 - [Xerces2 Parser](https://xerces.apache.org/xerces2-j/)
 - [Xalan-Java XSLT Processor](https://xml.apache.org/xalan-j/)
+- [DOM4J XML Library](https://github.com/dom4j/dom4j)

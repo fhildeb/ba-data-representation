@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding = "ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="Biblio.xsl"?>
-<!-- Das ist unsere erste XML-Uebung -->
+
 <?php irgend eine php-Anweisung ?>
-<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Biblio.xsd">
+<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
 	<buch buch_id = "_00001" >
 		<kuerzel>[Harold 05]</kuerzel>
 		<titel>XML in an Nutshell</titel>
 		<autoren>Harold, E.R.; Means, W.S.</autoren>
-		<verlag>O&apos;Reilly Verlag Köln</verlag>
+		<verlag>O&apos;Reilly Verlag Kï¿½ln</verlag>
 	</buch>
 
 	<buch buch_id = "_00002">

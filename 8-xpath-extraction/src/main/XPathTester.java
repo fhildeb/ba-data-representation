@@ -15,7 +15,7 @@ public class XPathTester {
 		
 		String expression ="";
 				
-		String xmlFile = "./Biblio_mit_XSD.xml";
+		String xmlFile = "./library-with-xsd.xml";
 		
 		expression = "/biblio/buch[@buch_id='_00002']/*";
 		
