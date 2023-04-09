@@ -2,7 +2,7 @@
 
 This project demonstrates how to read and write XML files using the XML DOM (Document Object Model) in Java with the Xerces parser from Apache.
 
-> By default, the reader uses the provided library XSD file within ./template
+> There are two different data sets provided within the template folder: item measurements and a library book set. By default it reads and writes the library example.
 
 ## XMLDomReader(Main)
 

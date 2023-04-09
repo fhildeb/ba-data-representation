@@ -9,7 +9,7 @@ It sets up and configures the XMLReader with the necessary features and properti
 
 The content handler processes XML elements and their attributes, displaying relevant information such as element names, attributes, and line numbers. The error class handles warnings, errors, and fatal errors that may occur during the parsing process, providing diagnostic information for troubleshooting.
 
-> Two different data sets are available within templates: addresses book and library list.
+> Two different data sets are available within templates: address book and library list. By default, it reads and outputs library objects.
 
 ### Terminal Output
 

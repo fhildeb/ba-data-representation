@@ -26,7 +26,7 @@ Regarding the more practical part, the course provided insights into programming
 3. XML Schema Validation Enhancement
 4. Java DOM XML Reader and Writer
 5. JSON Management and Validation
-6.
+6. Custom SAX XML Parsing
 7.
 8.
 
