@@ -1,6 +1,17 @@
-# SimpleSaxReader (Main)
+# Custom SAX XML Parsing
 
-## Terminal Output
+SAX (Simple API for XML) parsing is a popular, event-driven method for processing XML documents in a streaming manner. Unlike DOM (Document Object Model) parsing, which loads the entire XML document into memory as a tree structure, SAX parsing reads the XML file sequentially from start to end, generating events for each element, attribute, and piece of text encountered.
+
+## SAXReader (Main)
+
+This program parses an XML file, showcasing the implementation of custom content and error handlers.
+It sets up and configures the XMLReader with the necessary features and properties for schema validation and demonstrates how to parse an XML file, providing an example of using SAX-based XML processing.
+
+The content handler processes XML elements and their attributes, displaying relevant information such as element names, attributes, and line numbers. The error class handles warnings, errors, and fatal errors that may occur during the parsing process, providing diagnostic information for troubleshooting.
+
+> Two different data sets are available within templates: addresses book and library list.
+
+### Terminal Output
 
 ```
 Demo XML-SAX-Reader

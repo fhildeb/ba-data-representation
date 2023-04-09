@@ -6,13 +6,13 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-public class SimpleSaxReader {
+public class SAXReader {
 
 	XMLReader reader = null;
 	
 	String xmlFile = null;
 	
-	public SimpleSaxReader(String xmlFile)
+	public SAXReader(String xmlFile)
 	{
 		String driverName = "org.apache.xerces.parsers.SAXParser";
 		
@@ -65,20 +65,20 @@ public class SimpleSaxReader {
 		reader.setContentHandler(specialContentHandler);
 	}
 	
-	public void setErrorHandler(ErrorHandler myErrorHandler)
+	public void setErrorHandler(ErrorHandler SAXErrorHandler)
 	{
-		reader.setErrorHandler(myErrorHandler);
+		reader.setErrorHandler(SAXErrorHandler);
 	}
 	
 	public static void main(String[] args)
 	{
 		System.out.println("Demo XML-SAX-Reader");
 		
-		String path ="./Biblio_mit_XSD.xml";
+		String path ="./library-with-xsd.xml";
 		
-		SimpleSaxReader mySaxReader = new SimpleSaxReader(path);
-		mySaxReader.setContentHandler(new MyContentHandler());
-		mySaxReader.setErrorHandler(new MyErrorHandler());
+		SAXReader mySAXReader = new SAXReader(path);
+		mySaxReader.setContentHandler(new SAXContentHandler());
+		mySaxReader.setErrorHandler(new SAXErrorHandler());
 		mySaxReader.run();	
 	}
 }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="FirmenAdressen.xsl"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="FirmenAdressen.xsd" generated="2007-04-15T18:10:53">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="addresses.xsd" generated="2007-04-15T18:10:53">
 <tcaq_Adressen>
 <ID>1</ID>
 <FIRMA>Per Cent Maschinenbau AG</FIRMA>
