@@ -24,8 +24,8 @@ Regarding the more practical part, the course provided insights into programming
 1. XML Document Creation and Integration
 2. DTD-Based XML Validation
 3. XML Schema Validation Enhancement
-4.
-5.
+4. Java DOM XML Reader and Writer
+5. JSON Management and Validation
 6.
 7.
 8.

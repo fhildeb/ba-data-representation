@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 
-<messberichte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 		xsi:noNamespaceSchemaLocation="measurements-scheme.xsd">
+<messberichte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 		xsi:noNamespaceSchemaLocation="measurements-schema.xsd">
   <messbericht mb_id="YXZ-0815" pruefdatum="27.09.2014">
     <kopfdaten>
       <prueferdaten pers_id="HM0102" email="stefan@abcd.com" pr_name="Stefan Muster" />
